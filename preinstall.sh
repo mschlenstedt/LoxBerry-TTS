@@ -43,6 +43,11 @@ PCONFIG=$LBPCONFIG/$PDIR
 PSBIN=$LBPSBIN/$PDIR
 PBIN=$LBPBIN/$PDIR
 
+echo "Parameter: $0 $1 $2 $3 $4 $5"
+echo "$PCGI $PHTML $PTEMPL $PDATA $PLOG $PCONFIG $PSBIN $PBIN"
+
+exit
+
 # precheck_master_install.sh — Run detector before installing T2S Master
 # Blocks the install if client-only or mixed artifacts are present.
 
